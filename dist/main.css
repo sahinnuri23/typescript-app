@@ -1,0 +1,3 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap);
+html,body{padding:0;margin:0;font-family:"Roboto Mono",monospace;letter-spacing:-0.5px;font-size:14px}.cont{width:80%;margin:0 auto}.cont .box{margin:15px;padding:15px;box-shadow:0 0 8px rgba(0,0,0,.2);border-radius:15px}.cont .box .title{margin:0px}.cont .box #more{height:max-content;max-height:0px;overflow:hidden;transition:all .5s}.cont .box #more.load-more{max-height:200px}

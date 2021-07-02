@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector("#more");document.querySelector(".btn").addEventListener("click",(function(){e.classList.toggle("load-more")}))})();

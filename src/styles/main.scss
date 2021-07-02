@@ -1,0 +1,42 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+$standard-gutter :15px;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+
+}
+
+.cont {
+    width: 80%;
+    margin: 0 auto;
+
+    .box {
+        margin: $standard-gutter;
+        padding: $standard-gutter;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+        border-radius: $standard-gutter;
+
+        .title {
+            margin: 0px;
+        }
+
+        #more {
+            height: max-content;
+            max-height: 0px;
+            overflow: hidden;
+            transition: all .5s;
+
+            &.load-more {
+                max-height: 200px;
+            }
+        }
+
+    }
+}
